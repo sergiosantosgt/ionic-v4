@@ -9,4 +9,12 @@ export class TabsPage {
 
   constructor() {}
 
+  ngOnInit() {
+    // this.test();
+  }
+
+  public async test() {
+    console.log('test');
+  }
+
 }
